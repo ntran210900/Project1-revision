@@ -127,6 +127,8 @@ void subtractChar(char* left, char *right,const int SIZE)
 			carry = 1;
 		}
 		else
+		{
+			sum = ctin(left[i])  - right+ carry;
 			carry = 0;
 
 		left[i] = sum  + '0';
